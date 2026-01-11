@@ -2,11 +2,7 @@
             Clears all stored variables, arrays, and boolean values from the store.
             </td></tr><tr><td><a href="195941f4-79c0-e311-fa91-86def1cede6c.htm">CreateArray</a></td><td>
             Creates a new array with the specified size. If an array with the same name exists, it is overwritten.
-            </td></tr><tr><td><a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">Equals</a></td><td>Determines whether the specified object is equal to the current object.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr><tr><td><a href="8a0c1018-2cc2-4fc7-07c4-05cb19cb9c68.htm">EvalBoolean</a></td><td>
-            Evaluates a boolean logic expression supporting identifiers, boolean literals, negation (!),
-            logical AND (&amp;&amp;), logical OR (||), and parentheses.
-            Identifiers are resolved from the store; if a numeric variable is referenced, non-zero is true.
-            </td></tr><tr><td><a href="481ba6dc-2b7a-7e69-6c24-ed39f9e9a07f.htm">EvalExpression</a></td><td>
+            </td></tr><tr><td><a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">Equals</a></td><td>Determines whether the specified object is equal to the current object.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr><tr><td><a href="8a0c1018-2cc2-4fc7-07c4-05cb19cb9c68.htm">EvalBoolean</a></td><td> </td></tr><tr><td><a href="481ba6dc-2b7a-7e69-6c24-ed39f9e9a07f.htm">EvalExpression</a></td><td>
             Evaluates an arithmetic expression by replacing variable and array references with their current values.
             Supports basic arithmetic operators (+, -, *, /) and parentheses via <a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.compute" target="_blank" rel="noopener noreferrer">Compute(String, String)</a>.
             </td></tr><tr><td><a href="f668c7bf-487a-61dc-b726-e56c06226ea0.htm">GetAllNumbers</a></td><td>
@@ -16,7 +12,13 @@
             Booleans are mapped as: true -&gt; 1.0, false -&gt; 0.0.
             </td></tr><tr><td><a href="add6b076-2b50-c85a-20b4-b4e25dd743a7.htm">GetArrayValue</a></td><td>
             Retrieves a value from a specific index in a stored array.
-            </td></tr><tr><td><a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">GetHashCode</a></td><td>Serves as the default hash function. <br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr><tr><td><a href="https://learn.microsoft.com/dotnet/api/system.object.gettype" target="_blank" rel="noopener noreferrer">GetType</a></td><td>Gets the <a href="https://learn.microsoft.com/dotnet/api/system.type" target="_blank" rel="noopener noreferrer">Type</a> of the current instance.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr><tr><td><a href="d17c2616-e577-1ab8-8a26-e637b041d31c.htm">NormalizeName</a></td><td>
+            </td></tr><tr><td><a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">GetHashCode</a></td><td>Serves as the default hash function. <br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr><tr><td><a href="https://learn.microsoft.com/dotnet/api/system.object.gettype" target="_blank" rel="noopener noreferrer">GetType</a></td><td>Gets the <a href="https://learn.microsoft.com/dotnet/api/system.type" target="_blank" rel="noopener noreferrer">Type</a> of the current instance.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr><tr><td><a href="a84617fe-6119-a97e-a772-b2216616c339.htm">IsInt</a></td><td>
+            Returns true if the variable was declared as an integer.
+            </td></tr><tr><td><a href="be453dd0-fb71-e136-497b-3ac86b1e52dd.htm">MarkAsInt</a></td><td>
+            Mark a variable as declared as an integer.
+            </td></tr><tr><td><a href="5dbf7e2a-41ff-9ba8-8e3d-163878d86805.htm">MarkAsReal</a></td><td>
+            Mark a variable as declared as a real.
+            </td></tr><tr><td><a href="d17c2616-e577-1ab8-8a26-e637b041d31c.htm">NormalizeName</a></td><td>
             Normalizes a variable or array name by trimming whitespace and removing invisible characters (e.g., BOM).
             </td></tr><tr><td><a href="0cb4a93b-a948-e1cd-f55c-1648df60de55.htm">SetArrayValue</a></td><td>
             Sets a value at a specific index in a stored array.
